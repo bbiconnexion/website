@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bbiconnexion.com</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-04-2</lastmod>
     <!-- optional additional tags -->
   </url>
   <url>
     <loc>https://bbiconnexion.com/dev/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-04-2</lastmod>
   </url>
   <url>
     <loc>https://bbiconnexion.com/staging/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-04-2</lastmod>
   </url>
   <url>
     <loc>https://bbiconnexion.com/compliance/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-04-2</lastmod>
   </url>
   <url>
     <loc>https://bbiconnexion.com/newsletter</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-04-2</lastmod>
   </url>
 </urlset>
