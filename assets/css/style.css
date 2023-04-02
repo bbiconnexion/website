@@ -1,12 +1,8 @@
 html {
-  background: url(assets/img/bbi-background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #080808;
 }
 body {
-  color: rgb(255, 255, 255);
+  color: rgb(252, 252, 252);
   margin: 0;
   height: 0;
   text-align: center;
