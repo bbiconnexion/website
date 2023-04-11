@@ -1,28 +1,45 @@
-html {
-  background-color: #080808;
+:root {
+  --main-color: #fff;
+  --color-dark: #000;
+  --matrix-color:#00ff00;
+  --text-grey: #888888;
 }
-body {
-  color: rgb(252, 252, 252);
-  margin: 0;
-  height: 0;
-  text-align: center;
+
+* {margin: 0;padding: 0;}
+body,html,td,th {display:grid;height: 100%;color: var(--main-color);background-color: var(--color-dark);font-family: Source Code Pro, Courier New, Courier, monospace;}
+
+/* HEADER SECTION  */
+header {display: grid;}
+header .logo {width: 100px;}
+
+/* NAVIGATION MENU SECTION  */
+nav {text-align: center;}
+nav ul {display: grid; grid-template-columns: repeat(1,1fr);list-style-type: none}
+nav li {margin: 5px;}
+nav a {color: var(--main-color);text-decoration: none;}
+
+/* MAIN SECTION  */
+main { margin: 10%;text-align: center;}
+p.large {font-size: 20px;color: var(--matrix-color);font-weight: bold;text-transform: uppercase;}
+
+/* FOOTER SECTION  */
+footer {font-size: 20px;text-align: center;}
+footer .footer-social-links a {color: var(--matrix-color);}
+footer .footer-social-links a:hover {color: var(--main-color);}
+
+/* RESPONSIVE SECTION  */
+@media screen and (min-width: 32em) {
 }
-main {
-  margin-top: 250px;
+
+@media screen and (min-width: 64em) {
 }
-footer {
-  margin-bottom: 0;
+
+@media screen and (max-width: 530px) {
+header {display: grid;}
+header .logo {width: 60px;}
+main { margin-top: 10%;text-align: center;font-size: 12px;}
+p.large {color: var(--matrix-color);font-weight: bold;text-transform: uppercase;}
 }
-h1 {
-  font-size: 30px;
-  opacity: 1;
-}
-p {
-  font-size: 18px;
-}
-a {
-  color: #28a745;
-}
-.logo {
-  max-width: 60px;
+
+@media screen and (min-width: 1200px) {
 }
