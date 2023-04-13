@@ -10,7 +10,7 @@ body,html,td,th {display:grid;height: 100%;color: var(--main-color);background-c
 
 /* HEADER SECTION  */
 header {display: grid;}
-header .logo {width: 100px;}
+header .logo {width: 100px;margin-top: 5%;}
 
 /* NAVIGATION MENU SECTION  */
 nav {text-align: center;}
